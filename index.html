@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swellie Musiek</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    
+    <form>
+        <input type="text" name="name" id="name" placeholder="Name"><br>
+        <input type="text" name="email" id="email" placeholder="School email"><br>
+        <input type="text" name="link" id="link" placeholder="Song link"><br>
+        <button type="submit">submit</button>
+    </form>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3bs9k4VeSVDDnikLySWuvs?utm_source=generator&theme=0" width="100%" height="600" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <button id="getPlaylistButton">Get Playlist</button>
+    <div id="playlistData"></div>
+    <script src="/JS/app.js"></script>
 </body>
 </html>
